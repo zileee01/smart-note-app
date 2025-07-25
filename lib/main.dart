@@ -14,7 +14,7 @@ class NoteWiseApp extends StatelessWidget {
       title: 'Note Wise',
       theme: ThemeData(
         useMaterial3: true,
-        fontFamily: 'Poppins'
+        fontFamily: 'Montserrat'
       ), 
       home: const SplashScreen(), 
       debugShowCheckedModeBanner: false,

@@ -19,5 +19,17 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/logo.svg
+    - assets/googleIcon.svg
+    - assets/text.svg
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          style: italic
