@@ -24,6 +24,7 @@ flutter:
     - assets/logo.svg
     - assets/googleIcon.svg
     - assets/text.svg
+    - assets/email.svg
 
   fonts:
     - family: Montserrat

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'confirmEmail_screen.dart';
 
 class SigninScreen extends StatelessWidget {
   const SigninScreen({super.key});
@@ -24,7 +25,10 @@ class SigninScreen extends StatelessWidget {
               ButtonWidget(
                 text: 'Start Writing',
                 onPressed: () {
-                  print('Start Writing button pressed');
+                 Navigator.push(
+                 context,
+                 MaterialPageRoute(builder: (context) => const ConfirmemailScreen()),
+                 );
                 },
               ),
               SizedBox(height: 60),
